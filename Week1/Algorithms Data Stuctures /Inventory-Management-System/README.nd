@@ -29,3 +29,8 @@ public class Product {
     // Constructor, Getters/Setters
 }
 
+ Time Complexity
+- Add: O(1)
+- Update: O(1)
+- Delete: O(1)
+
