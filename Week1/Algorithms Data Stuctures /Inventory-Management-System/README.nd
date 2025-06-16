@@ -1,1 +1,31 @@
-a
+ Exercise 1: Inventory Management System
+
+ Problem Statement
+You're tasked with building an inventory management system for a warehouse. The key requirement is **efficient storage and retrieval** of product data, including adding, updating, and deleting product records.
+
+ Why Data Structures & Algorithms Matter
+
+Handling large inventories requires operations to be fast and scalable Without proper data structures, performance may degrade as data grows.Algorithms help ensure optimal performance in managing and accessing product data.
+
+ Chosen Data Structure: `HashMap<Integer, Product>`
+
+
+
+ Why HashMap?
+Offers constant time operations for `add`, `update`, and `delete`.
+ Ideal for **unique product identifiers** and frequent lookups.
+
+
+
+ Product Class Structure
+
+```java
+public class Product {
+    int productId;
+    String productName;
+    int quantity;
+    double price;
+    
+    // Constructor, Getters/Setters
+}
+
